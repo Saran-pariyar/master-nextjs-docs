@@ -1,0 +1,3 @@
+1. Next.js has an in-memory client-side cache called the Router Cache
+
+2. Partial rendering -> only route segment that changes re-render on client(/dashboard/setting or /dashboard/analytics ), any shared segments are preserved (/dashboard/layout.tsx)

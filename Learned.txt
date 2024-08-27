@@ -1,3 +1,28 @@
-1. Next.js has an in-memory client-side cache called the Router Cache
+ ##ROUTING
 
-2. Partial rendering -> only route segment that changes re-render on client(/dashboard/setting or /dashboard/analytics ), any shared segments are preserved (/dashboard/layout.tsx)
+
+ Redirect -> server component (used for redirecting after submit form or logins)
+    We can use it in next.config.js to redirect an incoming request path to a different destination path
+
+ useRouter -> client component (just simple navigations)
+
+ window.history.pushState -> modify url & browser's history without  reload
+
+ window.history.replaceState -> Same like pushState but it replace current history entry with new state & URL in browser history stack
+
+ prefetch -> preload route before user visit
+
+ ** try error.js & loading.js
+
+ streaming -> ability to send parts of a response to the client as they are generated, rather than waiting for the entire response to be ready.
+
+ use _folder to create private folder (not routable)
+
+ Parallel Routes -> simultaneously or conditionally render one or more pages within the same layout. (can be used to create modals too)
+
+ Intercepting Routes ->  load a route from another part of your application within the current layout. Uses this = (..) or (.) or (...) in foldername
+
+ (Learn middleware and create backend of typeintel with Nextjs!!)
+
+
+ ## DATA FETCHING 

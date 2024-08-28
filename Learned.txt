@@ -26,3 +26,5 @@
 
 
  ## DATA FETCHING 
+
+ cache: 'no-store' to not cache API response. The database call is not cached (SELECT FROM "USER"). (Api call is cached)
